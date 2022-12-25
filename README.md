@@ -29,8 +29,7 @@ app.post('/webhook',(req, res)=> {
     }
     req.body.description
     req.body.customeremail
-    req.body.customername
-    req.body.customerphone
+    req.body.customer_username
     req.body.amount
     res.status(200).end();
 })
